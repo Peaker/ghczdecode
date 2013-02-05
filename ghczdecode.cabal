@@ -18,3 +18,7 @@ executable ghczdecode
   main-is:             zdecode.hs
   build-depends:       base >= 4 && < 10
   ghc-options:         -Wall
+
+source-repository head
+  type: git
+  location: https://github.com/Peaker/ghczdecode.git
